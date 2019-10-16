@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "category",
+            "type": "string"
+        },
+        {
+            "name": "platform",
+            "type": "string"
+        },
+        {
+            "name": "photo",
+            "type": "file"
+        },
+        {
+            "name": "status",
+            "type": "select",
+            "options": {
+                "incomplete": "Incomplete",
+                "in_process": "In process",
+                "pause": "Pause",
+                "finished": "Finished"
+            }
+        },
+        {
+            "name": "buy_date",
+            "type": "date"
+        }
+    ]
+}
